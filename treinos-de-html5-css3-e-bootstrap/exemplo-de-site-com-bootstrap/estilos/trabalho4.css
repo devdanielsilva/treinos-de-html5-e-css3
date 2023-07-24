@@ -1,0 +1,62 @@
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+header {
+    background-color: #9ACD32 !important;
+}
+
+.jumbotron {
+    border-radius: 0px;
+}
+
+.navbar-form .form-group {
+    margin-bottom: 0;
+}
+
+.header {
+    background-color: #9ACD32;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-form {
+    margin-right: 15%;
+    margin-left: -15px;
+}
+
+
+
+.footer {
+    background-color: orange;
+    padding: 100px;
+    text-align: left;
+}
+
+
+#sech2 {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 0;
+}
+
+#visu {
+    display: inline-block;
+    margin-left: 10px;
+    /* Ajuste o valor conforme necessário */
+    color: #999999;
+    font-size: 20px
+}
+
+.consideracoes-finais {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
