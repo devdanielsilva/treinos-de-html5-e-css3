@@ -1,0 +1,8 @@
+header nav{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header nav .container-fluid .navbar-brand #logo{
+    height: 50px;
+}
