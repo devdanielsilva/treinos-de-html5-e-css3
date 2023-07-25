@@ -3,15 +3,19 @@ header nav{
     justify-content: center;
     text-align: center;
 }
+
+/**/
 header nav .container-fluid .navbar-brand #logo{
     height: 50px;
 }
+
+/**/
 main section.personagens{
     text-align: center;
     padding: 32px 15px 32px 15px;
 }
 
-/*Seletor */
+/*Seletor da section de personagens.*/
 main section.personagens .container{
     justify-content: center;
     align-items: center;
