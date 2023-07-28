@@ -1,5 +1,9 @@
 /*O Seletor com o sinal de astérisco * , é um seletor que reseta as configurações que o navegador nos dá como padrão.*/
 
-body main .nav1 li{
+body main {
     border: 1px solid red;
+}
+
+nav ul {
+    display: flex;
 }
