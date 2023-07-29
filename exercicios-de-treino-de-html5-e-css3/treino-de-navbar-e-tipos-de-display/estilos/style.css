@@ -1,4 +1,10 @@
 /*O Seletor com o sinal de astérisco * , é um seletor que reseta as configurações que o navegador nos dá como padrão.*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body main {
     border: 1px solid red;
@@ -52,13 +58,14 @@ nav ul {
         JUSTIFY-CONTENT
         A propriedade justify-content define o alinhamento dos itens ao longo do eixo principal do container. A sintaxe e os valores possíveis para essa propriedade são apresentados a seguir:
 
-        justify-content: [center, flex-start / flex-end / space-between / space-around ] 
+        justify-content: [center, flex-start / flex-end / space-between / space-around / space-evenly] 
 
         flex-start (padrão): Os itens são alinhados a partir do início do eixo principal;
         flex-end: Os itens são alinhados a partir do fim do eixo principal;
         center: Os itens são alinhados ao centro do eixo principal;
         space-between: O primeiro item é deslocado para o início do eixo principal, o último é deslocado para o final do eixo principal e os demais são distribuídos uniformemente entre eles;
         space-around: Os itens são uniformemente distribuídos ao longo do eixo principal. Aqui, porém, são atribuídas margens iguais à esquerda e à direita (ou acima e abaixo, dependendo da direção do eixo principal). Por isso o primeiro e o último item não ficam “colados” nas bordas do container.
+        space-evenly: Espaços constante, espaços entre e ao redor dos elementos. E esse espaços são proporcionais do mesmo tamanho.
         ..............................................................................................................
         FLEX-DIRECTION
         A propriedade flex-direction deve ser aplicada ao container e define o eixo/fluxo de exibição em que os elementos serão organizados. A sintaxe e os valores possíveis para essa propriedade são apresentados a seguir:
