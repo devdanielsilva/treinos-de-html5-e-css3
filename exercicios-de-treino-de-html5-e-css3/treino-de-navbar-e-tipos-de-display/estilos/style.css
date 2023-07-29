@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /*O Seletor com o sinal de astérisco * , é um seletor que reseta as configurações que o navegador nos dá como padrão.*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /*O Seletor com :root, é um seletor para definir configuração para cor da nav, cor do texto da nav, cor do button da nav, texto do button da nav.*/
-:root{
+:root {
     font-size: 62.5%;
     --nav-bg-color: #121212;
     --nav-text-color: white;
@@ -17,7 +17,12 @@
     --button-text-color: white;
 }
 
-/**/
+/*Seletor body com configurações para tamanho da fonte em rem e para a fonte family Roboto.*/
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 body main {
     border: 1px solid red;
 }
