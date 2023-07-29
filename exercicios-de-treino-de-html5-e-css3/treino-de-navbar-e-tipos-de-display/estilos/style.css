@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/**/
+/*O Seletor com :root, é um seletor para definir configuração para cor da nav, cor do texto da nav, cor do button da nav, texto do button da nav.*/
 :root{
     font-size: 62.5%;
     --nav-bg-color: #121212;
