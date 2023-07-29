@@ -59,18 +59,50 @@
         Através dessa propriedade flex, pode se dizer que temos o "Destrave" de algumas propriedades
         
         POR EXEMPLO: 
+        JUSTIFY-CONTENT
+
         justify-content: [center, flex-start / flex-end / space-between / space-around ] 
-        
-        flex-direction: [row / row-universe / column / column-reverse], flex-wrap:[nowrap / wrap / wrap-reverse]
-        
+        ..............................................................................................................
+        FLEX-DIRECTION
+        A propriedade flex-direction deve ser aplicada ao container e define o eixo/fluxo de exibição em que os elementos serão organizados. A sintaxe e os valores possíveis para essa propriedade são apresentados a seguir:
+
+        flex-direction: [row / row-universe / column / column-reverse] 
+
+        row (padrão): Os itens são organizados em forma de linha da esquerda para a direita;
+        row-reverse: Os itens são organizados em forma exibição em linha da direita para a esquerda;
+        column: Os itens são organizados em forma de colunas iniciando de cima para baixo;
+        column-reverse: Os itens são organizados em forma de colunas iniciando de baixo para cima.
+        ..............................................................................................................
+        FLEX-WRAP
+        Por padrão os itens do container tentarão se ajustar em uma única linha dentro do container, mas para isso a sua largura original pode ser ajustada para que todos caibam na largura do elemento pai. Com a propriedade flex-wrap aplicada ao container podemos alterar esse comportamento, fazendo com que ocorra a “quebra de linha” nos itens.
+
+        A sintaxe e os valores possíveis para essa propriedade são apresentados a seguir:   
+
+        flex-wrap:[nowrap / wrap / wrap-reverse]
+
+        nowrap (padrão): Todos os itens serão dispostos em uma linha;
+        wrap: Ocorrerá a quebra de linha e os itens mais à direita serão deslocados para a linha de baixo;
+        wrap-reverse: Ocorrerá a quebra de linha e os itens mais à direita serão deslocados para a linha de cima;
+        ..............................................................................................................
+
+        FLEX-FLOW
+
         flex-flow:[column wrap], align-content:[stretch / flex-start / flex-end / center / space-between / space-around] 
-        
+        ..............................................................................................................
+        ALIGN-ITEMS
+
         align-items:[stretch / flex-start / flex-end / center / baseline]
-        
+        ..............................................................................................................
+        ORDER
+
         order:[número], flex:[flex-grow:[número], flex-shrink:[número]
-        
+        ..............................................................................................................
+        FLEX-BASIS
+
         flex-basis:[número]]
-        
+        ..............................................................................................................
+        ALIGN-SELF
+
         align-self:[auto / stretch / flex-start / flex-end / centerr / baseline].
 
         ---------------------------------------------------------------------------------------------
