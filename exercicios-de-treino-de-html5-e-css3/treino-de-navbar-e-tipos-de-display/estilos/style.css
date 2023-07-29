@@ -1,3 +1,6 @@
+/*O Seletor com @import url, é para importação da url da fonte Robot, que é a fonte que eu estou usando neste exercício de treino.*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /*O Seletor com o sinal de astérisco * , é um seletor que reseta as configurações que o navegador nos dá como padrão.*/
 *{
     margin: 0;
@@ -5,11 +8,21 @@
     box-sizing: border-box;
 }
 
+/**/
+:root{
+    font-size: 62.5%;
+    --nav-bg-color: #121212;
+    --nav-text-color: white;
+    --button-bg-color: #0052CE;
+    --button-text-color: white;
+}
 
+/**/
 body main {
     border: 1px solid red;
 }
 
+/**/
 nav ul {
     display: flex;
     justify-content: space-around;
