@@ -57,8 +57,8 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     /*A propriedade list-style: none; Serve para tirar as bolinhas da lista ul - Lista não-ordenada.*/
     list-style: none;
 
-    /**/
-    justify-content: space-between;
+    /*Para adicionar um espaço entre os li, utilizamos o gab: 3rem; 3rem é equivalente a 30px*/
+    gap: 3rem;
 }
 
 /**/
