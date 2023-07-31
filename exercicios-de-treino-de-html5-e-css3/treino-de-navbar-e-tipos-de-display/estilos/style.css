@@ -60,7 +60,7 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     /*Para adicionar um espaço entre os li, utilizamos o gab: 3rem; 3rem é equivalente a 30px
 
     Para termos espaços entre elementos do display:flex; podemos usar só um gab: 3rem ou quantidade necessária. 
-    Com isso não precisamos usar margin: right; ou margin: left; por exemplo.*/
+    Com isso não precisamos usar margin: right; ou margin: left; porque estamos o display: flex e isso facilita o desenvolvimento.*/
     gap: 3rem;
 }
 
