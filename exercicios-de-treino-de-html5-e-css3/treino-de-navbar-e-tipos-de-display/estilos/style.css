@@ -35,9 +35,9 @@ body main {
 }
 
 /**/
-.nav1 .buttom{
+.nav1 .logo ul li .buttom{
     display: inline-flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     padding: 1rem 1.6rem;
 }
