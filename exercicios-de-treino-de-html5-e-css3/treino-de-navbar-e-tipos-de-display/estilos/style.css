@@ -47,6 +47,9 @@ body main {
 
     /*height é altura de um elemento, e 6rem que é equivalçente a 60px. rem é o tamanho*/
     height: 6rem;
+
+    /*padding é o espaçamento. o 0 é o espaçamento de cima e em baixo, e o 2.4 é o espaçamento das laterais, direita e esquerda. */
+    padding: 0 2.4rem;
 }
 
 /*Observando como caixas, a ul é uma caixa com 3 caixas dentro que são as li.
@@ -65,11 +68,8 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
 }
 
 /**/
-.nav1 .logo ul li .buttom {
-    display: inline-flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1rem 1.6rem;
+.nav1 .buttom {
+    gap: 1rem;
 }
 
 /*
