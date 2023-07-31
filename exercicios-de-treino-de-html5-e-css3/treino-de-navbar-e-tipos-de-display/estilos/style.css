@@ -43,6 +43,9 @@ body main {
 
     /*color é para a cor do texto geralmente. var tem a cor do texto, a cor que definimos também no :root*/
     color: var(--nav-text-color);
+
+    /*height é altura de um elemento, e 6rem que é equivalçente a 60px. rem é o tamanho*/
+    height: 6rem;
 }
 
 /*Observando como caixas, a ul é uma caixa com 3 caixas dentro que são as li.
