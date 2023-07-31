@@ -28,7 +28,7 @@ body main {
     border: 1px solid red;
 }
 
-/*Seletor da navbar. */
+/*Seletores da nav 1. */
 .nav1 {
     display: flex;
 
@@ -50,6 +50,9 @@ body main {
 
     /*padding é o espaçamento. o 0 é o espaçamento de cima e em baixo, e o 2.4 é o espaçamento das laterais, direita e esquerda. */
     padding: 0 2.4rem;
+
+    margin: 1rem;
+    /*1 rem é equivalente á 10px.*/
 }
 
 /*Observando como caixas, a ul é uma caixa com 3 caixas dentro que são as li.
@@ -72,7 +75,13 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     gap: 1rem;
 }
 
-/*Seletor da navbar 2. */
+.nav1 .nav2 {
+    height: 5rem;
+    margin: 10px 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/*Seletores da nav 2. */
 .nav2 {
     display: flex;
 
@@ -94,6 +103,9 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
 
     /*padding é o espaçamento. o 0 é o espaçamento de cima e em baixo, e o 2.4 é o espaçamento das laterais, direita e esquerda. */
     padding: 0 2.4rem;
+
+    /*margin: determina quanto de espaço entre a border e os elementos que estão fora da caixa*/
+    margin: 1rem;
 }
 
 /*Observando como caixas, a ul é uma caixa com 3 caixas dentro que são as li.
@@ -114,6 +126,23 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
 /**/
 .nav2 .buttom {
     gap: 1rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*Seletores da nav 3.*/
+.nav3 {
+    display: flex;
+
+    /*O parâmetro flex-direction é para a direção de alguns elementos com o display: flex; e a propriedade row-reverse é para inverte a ordem de tudo. Exemplo: o início vira final e o final vira início.*/
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    height: 6rem;
+    padding: 0 2.4rem;
+    margin: 1rem;
 }
 
 /*
