@@ -33,12 +33,21 @@ body main {
 
     /*justify-content com o parâmetro space-between, serve para colocar espaços entre os elementos da nav.*/
     justify-content: space-between;
+
+    /*align-items: center; server para alinhar os elementos no eixo (main axis - eixo principal)*/
     align-items: center;
+
+    /*background-color é para a cor de fundo de um elemento. var é para a cor que definimos no seletor :root
+    --nav-bg-color é a cor da navbar que definimos no :root*/
+    background-color: var(--nav-bg-color);
+
+    /*color é para a cor do texto geralmente. var tem a cor do texto, a cor que definimos também no :root*/
+    color: var(--nav-text-color);
 }
 
 /*Observando como caixas, a ul é uma caixa com 3 caixas dentro que são as li.
 Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li do lado do outro, criaremos um seletor da ul, ai colocamos o display flex. Que ai sim todos os elementos li, vão ficar um do lado do outro.*/
-.nav1 ul{
+.nav1 ul {
     display: flex;
 
     /*A propriedade list-style: none; Serve para tirar as bolinhas da lista ul - Lista não-ordenada.*/
@@ -49,7 +58,7 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
 }
 
 /**/
-.nav1 .logo ul li .buttom{
+.nav1 .logo ul li .buttom {
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
