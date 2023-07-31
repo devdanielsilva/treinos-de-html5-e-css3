@@ -23,11 +23,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*Seletor do body, que é o corpo no nosso documento html. Está junto do main pois, temos por padrão o body porém, quando vamos adicionar/alterar conteúdo, tem que ser dentro da main.*/
 body main {
     border: 1px solid red;
 }
 
-/**/
+/*Seletor da navbar. */
 .nav1 {
     display: flex;
 
