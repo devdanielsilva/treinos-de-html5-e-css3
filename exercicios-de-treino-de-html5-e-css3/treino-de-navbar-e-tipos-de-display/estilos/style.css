@@ -72,6 +72,8 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
 
 /**/
 .nav1 .buttom {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
     gap: 1rem;
 }
 
