@@ -28,14 +28,14 @@ body main {
 }
 
 /**/
-nav ul {
+.nav1 ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 /**/
-.buttom{
+.nav1 .buttom{
     display: inline-flex;
     justify-content: center;
     align-items: center;
