@@ -79,7 +79,6 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     height: 3rem;
     border-radius: 20px;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -133,7 +132,14 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
 
 /**/
 .nav2 .buttom {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
     gap: 1rem;
+    width: 50px;
+    height: 3rem;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -151,6 +157,25 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     height: 6rem;
     padding: 0 2.4rem;
     margin: 1rem;
+}
+
+/**/
+.nav3 ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+/**/
+.nav3 .buttom{
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    gap: 1rem;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 /*
