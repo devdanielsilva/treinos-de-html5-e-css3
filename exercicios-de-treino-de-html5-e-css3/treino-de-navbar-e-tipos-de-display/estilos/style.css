@@ -75,6 +75,12 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
     gap: 1rem;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .nav1 .nav2 {
