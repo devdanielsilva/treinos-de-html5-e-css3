@@ -185,14 +185,17 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     background-color: var(--nav-bg-color);
     color: var(--nav-text-color);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    padding: 0 2.4rem;
+    margin: 1rem;
 }
 
 .nav4 ul {
     display: flex;
     list-style: none;
-
+    align-items: center;
+    gap: 3rem;
 }
 
 /*
