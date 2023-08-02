@@ -135,7 +135,7 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
     gap: 1rem;
-    width: 50px;
+    width: 9rem;
     height: 3rem;
     border-radius: 20px;
     justify-content: center;
@@ -160,14 +160,14 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
 }
 
 /*Lista de opções da nav 3*/
-.nav3 ul{
+.nav3 ul {
     display: flex;
     list-style: none;
     gap: 3rem;
 }
 
 /*buttom da nav 3*/
-.nav3 .buttom{
+.nav3 .buttom {
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
     gap: 1rem;
