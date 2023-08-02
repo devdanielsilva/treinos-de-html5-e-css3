@@ -198,6 +198,18 @@ Se queremos mexer nas caixas dentro, que é os li, deixar centralizado e um li d
     gap: 3rem;
 }
 
+.nav4 .buttom {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    display: flex;
+    gap: 1rem;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 2rem;
+    justify-content: center;
+
+}
+
 /*
         --------------------------------------------------------------------------------------------------------------
         BOX-MODEL
