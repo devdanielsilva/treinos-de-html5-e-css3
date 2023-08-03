@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/**/
+/*caixa principal onde estão a caixa da esquerda e direita. É uma caixa que vai organizar tudo.*/
 .main-login {
     width: 100vw;
     height: 100vh;
