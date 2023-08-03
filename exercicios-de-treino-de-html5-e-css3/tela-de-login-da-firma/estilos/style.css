@@ -104,6 +104,24 @@
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
+@media screen and (max-width: 780px){
+    .main-login {
+        flex-direction: column;
+        height: 140vw;
+    }
+
+    .left-login{
+        width: 70%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .right-login{
+        width: 80%;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+}
 @media screen and (max-width: 680px){
     .main-login {
         flex-direction: column;
@@ -123,12 +141,42 @@
     }
 }
 
-@media screen and (max-width: 412px){
-    .main-login .left-login > img{
-        max-width: 100%;
-        
+@media screen and (max-width: 532px){
+    .main-login {
+        flex-direction: column;
+        height: 140vw;
     }
-    .main-login .right-login{
-        width: 100%;
+
+    .left-login{
+        width: 70%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .right-login{
+        width: 80%;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .main-login {
+        flex-direction: column;
+        height: 110vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-login{
+        width: 120vw;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .right-login{
+        width: 120vw;
+        margin-top: 0;
+        padding-top: 20px;
     }
 }
