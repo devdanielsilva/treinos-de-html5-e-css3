@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/*caixa principal onde estão a caixa da esquerda e direita. É uma caixa que vai organizar tudo.*/
+/*seletor da caixa principal onde estão a caixa da esquerda e direita. É uma caixa que vai organizar tudo.*/
 .main-login {
     width: 100vw;
     height: 100vh;
@@ -15,22 +15,24 @@
     align-items: center;
 }
 
-/**/
+/*seletor da imagem da caixa esquerda.*/
 .main-login .left-login>img {
     max-width: 70%;
 }
 
-/**/
+/*seletor da caixa da direita, onde estão os campos de usuário e senha.*/
 .left-login {
     width: 50vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /*flex-direction: column; server para deixar os elementos da caixa da esquerda em coluna. Ou seja, uma em baixo da outra.*/
     flex-direction: column;
 }
 
-/**/
+/*Seletor da mensagem que fica acima da imagem na caixa da esquerda.*/
 .left-login>h1 {
     color: #77ffc0;
 }
