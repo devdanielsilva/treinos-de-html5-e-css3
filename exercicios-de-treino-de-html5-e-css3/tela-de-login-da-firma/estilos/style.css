@@ -180,6 +180,7 @@
 @media screen and (max-width: 412px) {
     .main-login {
         flex-direction: column;
+        width: auto;
         height: 110vh;
         margin: 0;
         padding: 0;
