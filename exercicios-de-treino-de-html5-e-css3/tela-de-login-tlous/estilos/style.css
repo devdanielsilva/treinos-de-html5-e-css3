@@ -1,6 +1,28 @@
 /*Resetando configurações que o navegador dá como padrão.*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login>h1 {
+    color: #77ffc0;
 }
