@@ -17,6 +17,16 @@
     height: 200px;
 }
 
+.container-fluid .navbar-brand > img{
+    width: 15rem;
+}
+
+.carousel-slide{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width){
     
 }
