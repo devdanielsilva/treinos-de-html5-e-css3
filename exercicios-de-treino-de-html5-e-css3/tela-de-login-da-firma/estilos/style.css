@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/**/
 .main-login {
     width: 100vw;
     height: 100vh;
@@ -14,10 +15,12 @@
     align-items: center;
 }
 
+/**/
 .main-login .left-login>img {
     max-width: 70%;
 }
 
+/**/
 .left-login {
     width: 50vw;
     height: 100vh;
@@ -27,10 +30,12 @@
     flex-direction: column;
 }
 
+/**/
 .left-login>h1 {
     color: #77ffc0;
 }
 
+/**/
 .right-login {
     width: 50vw;
     height: 100vh;
@@ -39,6 +44,7 @@
     align-items: center;
 }
 
+/**/
 .card-login {
     width: 60%;
     display: flex;
@@ -51,12 +57,14 @@
     box-shadow: 0px 10px 40px #00000056;
 }
 
+/**/
 .card-login>h2 {
     color: #00ff88;
     font-weight: 800;
     margin: 0;
 }
 
+/**/
 .textfield {
     display: flex;
     flex-direction: column;
@@ -66,6 +74,7 @@
     width: 100%;
 }
 
+/**/
 .textfield>input {
     width: 100%;
     border: none;
@@ -79,15 +88,18 @@
     box-sizing: border-box;
 }
 
+/**/
 .textfield>label {
     color: #f0ffffde;
     margin-bottom: 10px;
 }
 
+/**/
 .textfield>input::placeholder {
     color: #f0ffff94;
 }
 
+/**/
 .btn-login {
     width: 100%;
     padding: 16px 0px;
@@ -104,6 +116,7 @@
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
+/**/
 @media screen and (max-width: 780px) {
     .main-login {
         flex-direction: column;
@@ -123,6 +136,7 @@
     }
 }
 
+/**/
 @media screen and (max-width: 680px) {
     .main-login {
         flex-direction: column;
@@ -142,6 +156,7 @@
     }
 }
 
+/**/
 @media screen and (max-width: 532px) {
     .main-login {
         flex-direction: column;
@@ -161,6 +176,7 @@
     }
 }
 
+/**/
 @media screen and (max-width: 412px) {
     .main-login {
         flex-direction: column;
