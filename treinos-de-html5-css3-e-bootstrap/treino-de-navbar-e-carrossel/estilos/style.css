@@ -34,12 +34,23 @@ section .sec1{
 }
 
 section .sec2{
-    background-color: blueviolet;
+    color: blueviolet;
 }
 header{
     display: flex;
 }
-header > img{
-    justify-content: center;
-    align-items: center;
+.container{
+    background-color: aqua;
+}
+ .sec1{
+    background-color: bisque;
+}
+
+main{
+    background-color: blueviolet;
+}
+.sec2{
+    background-color: cadetblue;
+    width: 100vw;
+    height: 50vh;
 }
