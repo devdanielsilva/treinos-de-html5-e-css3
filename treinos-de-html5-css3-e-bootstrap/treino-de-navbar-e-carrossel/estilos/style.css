@@ -5,8 +5,8 @@
     font-family: 'poppins', sans-serif;
 }
 
-.logo {
-    width: 35%;
+header.container-fluid{
+    background-color: aqua
 }
 
 .navbar navbar-expand-lg bg-body-tertiary{
@@ -29,6 +29,10 @@
 }
 
 
-@media screen and (max-width){
-    
+section .sec1{
+    background-color: aqua;
+}
+
+section .sec2{
+    background-color: blueviolet;
 }
