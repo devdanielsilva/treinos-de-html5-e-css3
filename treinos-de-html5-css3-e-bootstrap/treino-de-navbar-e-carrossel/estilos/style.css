@@ -44,6 +44,8 @@ header{
 }
  .sec1{
     background-color: bisque;
+    width: 100vw;
+    height: 40vh;
 }
 
 main{
