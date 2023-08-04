@@ -36,3 +36,10 @@ section .sec1{
 section .sec2{
     background-color: blueviolet;
 }
+header{
+    display: flex;
+}
+header > img{
+    justify-content: center;
+    align-items: center;
+}
