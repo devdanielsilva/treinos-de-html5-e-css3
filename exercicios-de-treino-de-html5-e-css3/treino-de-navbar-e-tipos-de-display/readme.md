@@ -44,6 +44,7 @@ POR EXEMPLO:
      space-evenly: Espaços constante, espaços entre e ao redor dos elementos. E esse espaços são proporcionais do mesmo tamanho.
 
 
+**EXPLICAÇÃO DE CADA PROPRIEDADE QUE O DISPLAY FLEX TEM** <br>
 
 
 
