@@ -3,3 +3,10 @@ O Conceito do box-model, é todos os elementos no html são interpretados como c
 
 **Display é uma propriedade.**
 --------
+**TIPOS DE DISPLAY'S:**
+
+**Display Block** <br>
+Tem algumas propriedades, e uma delas é sobre a largura. A largura de um elemento do tipo display block, esse elemento vai ocupar todo o espaço disponível. 
+
+**Display Inline** <br>
+
