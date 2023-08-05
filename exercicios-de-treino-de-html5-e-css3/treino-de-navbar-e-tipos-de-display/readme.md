@@ -3,15 +3,15 @@ O Conceito do box-model, é todos os elementos no html são interpretados como c
 
 **Display é uma propriedade.**
 --------
-**TIPOS DE DISPLAY'S:**
+## TIPOS DE DISPLAY'S:
 
-**Display Block** <br>
+### Display Block <br>
 Tem algumas propriedades, e uma delas é sobre a largura. A largura de um elemento do tipo display block, esse elemento vai ocupar todo o espaço disponível. <br>
 Fazendo com que um próximo elemento na página fique não ao lado dele mas, abaixo dele. Porque ele ocupa todo o espaço disponível dele, ou seja, cada elemento ocupar uma linha inteira, e ai ele vai outro elemento abaixo dele e assim sucessivamente com os demais elementos que tenham o display do tipo block.
 
         Por padrão, elementos como div, section, p, h1, h2, ul, li, article são display block. 
 ----
-**Display Inline** <br>
+### Display Inline <br>
 No display inline faz com que o tamanho dos elementos, seja de acordo com o tamanho do conteúdo desses elementos. E cada elemento fica um do lado do outro. <br> Os elementos não são jogado para baixo, isso é, um em baixo do outro, pois não ocupam a linha toda. <br>
 
     Por padrão, elementos como a, b, big, i, small, tt. abbr, acronym, cite, code, dfn, em, kbd, strong, samp, var. a, bdo, br, img, map, object, q, script, span, sub, sup. em são display inline.     
@@ -22,7 +22,7 @@ TANTO O DISPLAY: BLOCK E O DISPLAY: INLINE, ESSES TIPOS DE DISPLAY'S, TRATAM OS 
     DISPLAY BLOCK E INLINE, TEM A VER COM A CAIXA EM SÍ E COMO ESTÁ O AMBIÊNTE AO REDOR DELA.
 
 ---
-**Display Flex** <br>
+### Display Flex <br>
 O Display flex, tem a ver com as caixas dentro de outras caixas.
 Através dessa propriedade flex, pode se dizer que temos o "Destrave" de algumas propriedades. <br>
 POR EXEMPLO: 
@@ -44,7 +44,7 @@ POR EXEMPLO:
      space-evenly: Espaços constante, espaços entre e ao redor dos elementos. E esse espaços são proporcionais do mesmo tamanho.
 
 
-**EXPLICAÇÃO DE CADA PROPRIEDADE QUE O DISPLAY FLEX TEM** <br>
+## EXPLICAÇÃO DE CADA PROPRIEDADE QUE O DISPLAY FLEX TEM <br>
 FLEX-DIRECTION
         A propriedade flex-direction deve ser aplicada ao container e define o eixo/fluxo de exibição em que os elementos serão organizados. A sintaxe e os valores possíveis para essa propriedade são apresentados a seguir:
 
