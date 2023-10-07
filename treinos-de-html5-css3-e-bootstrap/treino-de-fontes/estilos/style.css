@@ -1,4 +1,27 @@
 /*A fonte padrão é Times New Roman*/
+
+
+*{/*Resetando a margem, o padding por padrão.*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    
+    background: rgb(252,203,144);
+    background: linear-gradient(315deg, rgba(252,203,144,1) 0%, rgba(213,126,235,1) 24%, rgba(0,212,255,1) 84%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  
+   
+    width: 300px;
+    height: 300px;
+}
+.container h2{
+  
 }
