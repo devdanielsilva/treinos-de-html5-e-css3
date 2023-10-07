@@ -1,4 +1,4 @@
-# Save-Combination (Combinações Seguras de Fontes)<br>
+# Safe-Combination (Combinações Seguras de Fontes)<br>
 
 ## Alguns Exemplos
 <strong>FONTE SEM SERIFA</strong><br>
