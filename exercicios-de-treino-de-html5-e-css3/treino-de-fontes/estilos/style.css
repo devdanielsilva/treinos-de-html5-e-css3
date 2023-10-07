@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:Arial, Helvetica, sans-serif; /*Essa combinação de com 3 tipos de fontes, é chamado de Save-Combination. Que é uma combinação segura, caso a primeira fonte não funcione em determinado dispositivo, é utilizado a segunda e assim em diante.*/
+    font-family:Arial, Helvetica, sans-serif; /*Essa combinação de com 3 tipos de fontes, é chamado de Safe-Combination. Que é uma combinação segura, caso a primeira fonte não funcione em determinado dispositivo, é utilizado a segunda e assim em diante.*/
 }
 .container{
     color: whitesmoke;
