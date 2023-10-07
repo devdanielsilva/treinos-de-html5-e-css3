@@ -2,6 +2,10 @@
 
 ## Alguns Exemplos
 <strong>FONTE SEM SERIFA</strong><br>
+Arial (sans-serif)<br>
+Verdana (sans-serif)<br>
+Tahoma (sans-serif)<br>
+Trebuchet MS (sans-serif)<br>
 
 
 <br><hr>
