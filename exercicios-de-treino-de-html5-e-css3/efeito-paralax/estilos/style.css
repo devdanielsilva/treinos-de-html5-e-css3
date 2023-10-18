@@ -4,4 +4,6 @@
     box-sizing: border-box;
 }/*Configurações para zerar as configurações que o navegador nos dá como padrão.*/
 
-
+section{
+    width: 100%;
+}/*Todas as section terão a largura de 100%, ou seja, as section vão ocupar 100% da largura delas.*/
