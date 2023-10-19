@@ -9,8 +9,24 @@ section{
     height: 400px; /*Altura*/
 }/*Todas as section terão a largura de 100%, ou seja, as section vão ocupar 100% da largura delas. E altura de 400 pixels - px.*/
 
-section:nth-of-type(1){/*nth-of-type(1) serve para específica que queremos fazer alterações na primeira section.*/
+section:nth-of-type(1){/*nth-of-type(1) serve para específica que queremos fazer alterações na primeira section.
+    Seletor da Section 1, que tem a primeira imagem.*/
     background-image: url("../imagem/quadradinhos.png");
     background-repeat: no-repeat;
 
+}
+
+section:nth-of-type(3){/*Seletor da Section 3, que tem a segunda imagem.*/
+    background-image: url("../");
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(5){/*Seletor da Section 5, que tem a terceira imagem.*/
+    background-image: url("../imagem/");
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(7){/*Seletor da Section 7, que tem a quarta imagem.*/
+    background-image: url("../");
+    background-repeat: no-repeat;
 }
