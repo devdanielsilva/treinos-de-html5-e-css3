@@ -7,26 +7,39 @@
 section{
     width: 100%; /*Largura*/
     height: 400px; /*Altura*/
+    padding: 40px 4%; /*Padding de 40px em cima e em baixo e 4% na direita e na esquerda.*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center; /*Conteúdo de texto centralizado.*/
+    font-family: roboto;
+    color: rgb(25, 25, 25);
+
 }/*Todas as section terão a largura de 100%, ou seja, as section vão ocupar 100% da largura delas. E altura de 400 pixels - px.*/
+
+section h1{
+    margin-bottom: 20px;
+}
+
+section p{
+    text-align: justify;
+}
 
 section:nth-of-type(1){/*nth-of-type(1) serve para específica que queremos fazer alterações na primeira section.
     Seletor da Section 1, que tem a primeira imagem.*/
     background-image: url("../imagem/city.jpg");
-    background-repeat: no-repeat;
 
 }
 
 section:nth-of-type(3){/*Seletor da Section 3, que tem a segunda imagem.*/
     background-image: url("../imagem/baby-yoda.jpg");
-    background-repeat: no-repeat;
 }
 
 section:nth-of-type(5){/*Seletor da Section 5, que tem a terceira imagem.*/
     background-image: url("../imagem/guerra1.jpg");
-    background-repeat: no-repeat;
 }
 
 section:nth-of-type(7){/*Seletor da Section 7, que tem a quarta imagem.*/
     background-image: url("../imagem/guerra2.jpg");
-    background-repeat: no-repeat;
 }
