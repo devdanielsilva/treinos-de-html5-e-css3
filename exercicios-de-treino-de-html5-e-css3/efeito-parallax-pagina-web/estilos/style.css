@@ -22,8 +22,7 @@ section{
 }/*Todas as section terão a largura de 100%, ou seja, as section vão ocupar 100% da largura delas. E altura de 400 pixels - px.*/
 
 section h1{
-    margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 section p{
