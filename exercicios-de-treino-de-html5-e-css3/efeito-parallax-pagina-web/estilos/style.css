@@ -46,3 +46,7 @@ section:nth-of-type(5){/*Seletor da Section 5, que tem a terceira imagem.*/
 section:nth-of-type(7){/*Seletor da Section 7, que tem a quarta imagem.*/
     background-image: url("../imagem/guerra2.jpg");
 }
+
+section:nth-of-type(9){/*Seletor da Section 9, que tem a quinta imagem.*/
+    background-image: url("../imagem/cg_starwars_skywalkersaga_mobile_20370_7b5e45d9.jpeg");
+}
