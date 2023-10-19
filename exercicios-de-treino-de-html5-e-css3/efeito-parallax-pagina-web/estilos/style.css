@@ -48,5 +48,17 @@ section:nth-of-type(7){/*Seletor da Section 7, que tem a quarta imagem.*/
 }
 
 section:nth-of-type(9){/*Seletor da Section 9, que tem a quinta imagem.*/
-    background-image: url("../imagem/cg_starwars_skywalkersaga_mobile_20370_7b5e45d9.jpeg");
+    background-image: url("../imagem/star-wars-saga-skywalker.jpg");
+}
+
+section:nth-of-type(11){
+    background-image: url("../imagem/");
+}
+
+section:nth-of-type(13){
+    background-image: url("../imagem/");
+}
+
+ul li{/*Seletor para alinhar a esquerda todos os elementos li das ul.*/
+    text-align: left; /*Alinhamento do texto à esquerda.*/
 }
