@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@700&family=Poller+One&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }/*Configurações para zerar as configurações que o navegador nos dá como padrão.*/
 
 section{
     width: 100%; /*Largura*/
     height: 400px; /*Altura*/
     padding: 40px 4%; /*Padding de 40px em cima e em baixo e 4% na direita e na esquerda.*/
-    background-position: center;
+    background-position: center; /**/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: black;
     text-align: center; /*Conteúdo de texto centralizado.*/
-    font-family: roboto;
-    color: rgb(25, 25, 25);
+    font-family: Poller One;
+    color: rgb(251, 255, 0);
 
 }/*Todas as section terão a largura de 100%, ou seja, as section vão ocupar 100% da largura delas. E altura de 400 pixels - px.*/
 
 section h1{
     margin-bottom: 20px;
+    font-size: 50px;
 }
 
 section p{
