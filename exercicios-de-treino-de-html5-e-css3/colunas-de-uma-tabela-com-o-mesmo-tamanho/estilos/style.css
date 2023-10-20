@@ -11,3 +11,12 @@ body{
     margin: 10em;
     padding: 7rem;
 }/*Seletor do corpo da página.*/
+
+table{
+    width: min(100%, 320px);
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
