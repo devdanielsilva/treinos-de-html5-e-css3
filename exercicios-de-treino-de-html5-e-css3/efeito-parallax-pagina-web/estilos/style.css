@@ -61,4 +61,5 @@ section:nth-of-type(13){
 
 ul li{/*Seletor para alinhar a esquerda todos os elementos li das ul.*/
     text-align: left; /*Alinhamento do texto à esquerda.*/
+    margin: 0 20px;/*Margin da esquerda para á direita 20px e 0 para cima e para baixo.*/
 }
