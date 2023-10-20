@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*Seletor para resetar a margin e o padding que o navegador nos dá como padrão.*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10em;
+    padding: 7rem;
+}/*Seletor do corpo da página.*/
