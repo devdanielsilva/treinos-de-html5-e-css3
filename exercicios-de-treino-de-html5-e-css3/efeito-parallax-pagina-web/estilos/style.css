@@ -52,7 +52,7 @@ section:nth-of-type(9){/*Seletor da Section 9, que tem a quinta imagem.*/
 }
 
 section:nth-of-type(11){
-    background-image: url("../imagem/");
+    background-image: url("../imagem/guerra-na-galáxia.jpg");
 }
 
 section:nth-of-type(13){
