@@ -10,14 +10,17 @@ body{
     align-items: center;
     margin: 10em;
     padding: 7rem;
+    flex-direction: column;
 }/*Seletor do corpo da página.*/
 
 table{
     width: min(100%, 320px);
     table-layout: fixed;
+    
+
 }
 
 td{
     border: 1px solid black;
-    padding: 8px;
+    padding: 20px;
 }
